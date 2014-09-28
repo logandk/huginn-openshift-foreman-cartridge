@@ -1,17 +1,17 @@
 Name: foreman
 Cartridge-Short-Name: FOREMAN
-Cartridge-Version: 0.1
-Cartridge-Vendor: andygoldstein
+Cartridge-Version: 0.2
+Cartridge-Vendor: cantino
 Display-Name: Foreman
 Description: "Foreman TODO"
 License: "ASL 2.0"
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
 Version: '0.63.0'
-Source-Url: https://github.com/ncdc/openshift-foreman-cartridge/archive/master.zip
-Vendor: David Dollar
+Source-Url: https://github.com/cantino/openshift-foreman-cartridge/archive/master.zip
+Vendor: Originally David Dollar
 Categories:
   - embedded
-Website: https://github.com/ncdc/openshift-foreman-cartridge
+Website: https://github.com/cantino/openshift-foreman-cartridge
 Provides:
   - foreman-0.63
   - foreman
