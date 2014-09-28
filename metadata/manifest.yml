@@ -17,6 +17,8 @@ Provides:
   - foreman
 Group-Overrides:
   - components:
+    - haproxy-1.4
     - foreman-0.63
-    - web_proxy
-Install-Build-Required: false
+Scaling:
+ Min: 1
+ Max: -1
