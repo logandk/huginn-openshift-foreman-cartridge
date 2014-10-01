@@ -10,6 +10,7 @@ Version: '0.63.0'
 Source-Url: https://github.com/cantino/openshift-foreman-cartridge/archive/master.zip
 Vendor: Originally David Dollar
 Categories:
+  - plugin
   - embedded
 Website: https://github.com/cantino/openshift-foreman-cartridge
 Provides:
@@ -17,8 +18,8 @@ Provides:
   - foreman
 Group-Overrides:
   - components:
-    - haproxy-1.4
-    - foreman-0.63
+    - web_framework
+    - foreman
 Scaling:
  Min: 1
  Max: -1
