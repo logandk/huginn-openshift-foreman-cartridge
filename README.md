@@ -6,6 +6,7 @@ This cartridge has been modified as follows:
 
 * `foreman` is configured to run `0` web processes, so that you can use the default Passenger OpenShift Ruby setup.
 * Switched to `ruby200` from `ruby193`.
+* Use `bundle exec` when launching foreman.
 
 # Installation
 Once you have an existing OpenShift application, run the following command:
