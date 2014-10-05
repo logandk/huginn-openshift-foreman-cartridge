@@ -12,8 +12,10 @@ path_append $LD_LIBRARY_PATH $ld_path > $OPENSHIFT_FOREMAN_DIR/env/LD_LIBRARY_PA
 # because this is running during cartridge installation, it currently has
 # permissions to create ~/.gem, so the gems are installed there, and
 # the binstubs are installed in ~/bin
-pushd $OPENSHIFT_FOREMAN_DIR > /dev/null
-scl enable ruby200 "bundle install"
-popd > /dev/null
+
+# Probably don't need this in our environment.
+# pushd $OPENSHIFT_FOREMAN_DIR > /dev/null
+# scl enable ruby200 "bundle install"
+# popd > /dev/null
 
 mkdir -p $OPENSHIFT_FOREMAN_RUN_DIR $OPENSHIFT_FOREMAN_LOG_DIR
