@@ -11,7 +11,7 @@ This cartridge has been modified as follows:
 # Installation
 Once you have an existing OpenShift application, run the following command:
 
-    rhc cartridge add -a app_name http://cartreflect-claytondev.rhcloud.com/reflect?github=ncdc/openshift-foreman-cartridge
+    rhc cartridge add -a app_name http://cartreflect-claytondev.rhcloud.com/reflect?github=logandk/logandk-openshift-foreman-cartridge
 
 # Usage
 In the root of your application's git repository, create a file called Procfile. Then add one or more entries such as:
